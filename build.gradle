@@ -1,0 +1,20 @@
+// define java 6 as a minimum source and target versions
+apply plugin: 'java'
+compileJava {
+    targetCompatibility = "1.6"
+    sourceCompatibility = "1.6"
+    options.encoding = 'UTF-8'
+}
+
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile fileTree(dir: 'lib', include: ['*.jar'])
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

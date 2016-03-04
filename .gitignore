@@ -12,6 +12,7 @@ pom.xml.orig
 
 # Package Files #
 *.jar
+!lib/algs4.jar
 *.war
 
 *.zip
