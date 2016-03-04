@@ -4,3 +4,16 @@
 *.jar
 *.war
 *.ear
+
+# IDE specific
+.idea
+*.iml
+Percolation/Percolation.iml
+
+# OS specific
+.DS_Store
+/.DS_Store
+
+
+Percolation/target/
+Percolation/src/main/java/percolation.zip
