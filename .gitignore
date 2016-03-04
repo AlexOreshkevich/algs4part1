@@ -1,19 +1,48 @@
+# common ignore
+*~
+MANIFEST.MF
+target/
+tmp/
+builds/
+build/
+pom.xml.orig
+*.versionsBackup
+
 *.class
 
 # Package Files #
 *.jar
 *.war
-*.ear
 
-# IDE specific
-.idea
+*.zip
+
+# eclipse specific
+.settings
+.project
+.classpath
+.metadata
+
+# idea specific
+.idea/*
+!.idea/codeStyleSettings.xml
 *.iml
-Percolation/Percolation.iml
+*.ipr
+*.iws
 
-# OS specific
+# gradle specific
+.gradle/
+build
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# unix specific
 .DS_Store
-/.DS_Store
+.directory
 
+# static plugins
+.pmd
 
-Percolation/target/
-Percolation/src/main/java/percolation.zip
+# log files
+logs
+*.log
